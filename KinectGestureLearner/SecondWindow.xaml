@@ -1,0 +1,14 @@
+﻿<Window x:Class="KinectGestureLearner.SecondWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Recolector de puntos - Kinect" Height="520" Width="1098" Loaded="Window_Loaded_1" Closing="Window_Closing_1">
+    <Grid HorizontalAlignment="Left" Height="490" VerticalAlignment="Top" Width="1088" Margin="0,0,0,-1">
+        <Image x:Name="kinectcolor" HorizontalAlignment="Left" Height="480" VerticalAlignment="Top" Width="640"/>
+        <Label x:Name="x2" Content="x" HorizontalAlignment="Left" Margin="685,454,-31,0" VerticalAlignment="Top"/>
+        <Label x:Name="y2" Content="y" HorizontalAlignment="Left" Margin="791,454,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="z2" Content="z" HorizontalAlignment="Left" Margin="874,454,0,0" VerticalAlignment="Top" Width="18"/>
+        <DataGrid x:Name="datagrid" HorizontalAlignment="Left" Margin="667,10,0,0" VerticalAlignment="Top" Width="402" Height="439"/>
+
+    </Grid>
+    
+</Window>
