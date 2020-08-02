@@ -1,3 +1,2 @@
-Kinect
-======
-Gesture Learning stuff using Hidden Markov Models. Highly experimental and broken stuff.
+# Kinect Gesture Learning
+Encode and decode movements using C# and Kinect. Based on K-means for clustering plus Hidden Markov Models for sequence classification.
